@@ -44,8 +44,7 @@ const About = () => {
             <h1 className="text-5xl font-bold text-gray-900 font-display">About</h1>
             <section>
                 <p className="text-xl text-gray-400 my-4">
-                    Venture At Brown was created by the Brown EP Tech Team to share the spirit of entrepreneurship by helping Brown and RISD students navigate the entrepreneurial
-                    resources on College Hill.
+                Valentine’s Day@Brown was created with the purpose of spreading love around the Brown student body. After realizing that there was no way to anonymously send valentines to other students, two hopeless romantics decided that creating this site would be a fun way for students to show their appreciation and affection for each other. Because, in the end, all you need is a little love. Happy Valentine’s day everyone!
                 </p>
                 <a className="red-link text-xl" href="https://www.brownentrepreneurship.com/">Learn more about Brown EP &rarr;</a>
             </section>
