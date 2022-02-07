@@ -3,40 +3,41 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 
 const team = [{
-    name: "Nathan Luu",
+    name: "Sam G",
     role: "Frontend/Backend Developer",
-    image: "/bears/nathan_bear.svg",
-    linkedIn: "www.linkedin.com/in/nthnluu",
-    github: "https://github.com/nthnluu",
-    website: "https://nthnluu.com"
+    image: "/bears/nathan_bear.svg"
+    // linkedIn: "www.linkedin.com/in/nthnluu",
+    // github: "https://github.com/nthnluu",
+    // website: "https://nthnluu.com"
 }, {
-    name: "Jasper Chen",
+    name: "Alex V",
     role: "Frontend Designer/Developer",
-    image: "https://ventureatbrown.com/bears/smiling_red_bear.svg",
-    linkedIn: "https://www.linkedin.com/in/jasper-chen-1b8b98197",
-    github: "https://github.com/Jasch3n",
-    website: "https://jasch3n.github.io/mySite"
-}, {
-    name: "Abby Powell",
-    role: "Frontend Developer",
-    image: "https://ventureatbrown.com/bears/experienced_pink.svg",
-    linkedIn: "https://www.linkedin.com/in/abigail-powell-75705b173",
-    github: "https://github.com/abigail-powell",
-    website: "https://nthnluu.com"
-}, {
-    name: "Aaron Wang",
-    role: "Project Manager",
-    image: "https://ventureatbrown.com/bears/experienced_green.svg",
-    linkedIn: "https://linkedin.com/in/aaronjwang",
-    github: "https://github.com/aaronwangj",
-    website: "https://aaronjwang.com"
-}]
+    image: "https://ventureatbrown.com/bears/smiling_red_bear.svg"}]
+    // linkedIn: "https://www.linkedin.com/in/jasper-chen-1b8b98197",
+    // github: "https://github.com/Jasch3n",
+    // website: "https://jasch3n.github.io/mySite"
+// }, {
+//     name: "Abby Powell",
+//     role: "Frontend Developer",
+//     image: "https://ventureatbrown.com/bears/experienced_pink.svg",
+//     linkedIn: "https://www.linkedin.com/in/abigail-powell-75705b173",
+//     github: "https://github.com/abigail-powell",
+//     website: "https://nthnluu.com"
+// }, {
+//     name: "Aaron Wang",
+//     role: "Project Manager",
+//     image: "https://ventureatbrown.com/bears/experienced_green.svg",
+//     linkedIn: "https://linkedin.com/in/aaronjwang",
+//     github: "https://github.com/aaronwangj",
+//     website: "https://aaronjwang.com"
+// }]
+
 
 const About = () => {
     const buttonStyle = "text-gray-400 hover:text-gray-300 focus:text-gray-200 transition-all duration-200"
     return <>
         <Head>
-            <title>About | Venture@Brown</title>
+            <title>About | Valentine's Day@Brown</title>
         </Head>
         <div className="max-w-3xl mx-auto px-4 my-24">
             <Navbar/>
@@ -57,7 +58,7 @@ const About = () => {
                                src={person.image}/>
                         <h3 className="text-xl font-semibold text-gray-700 mt-4">{person.name}</h3>
                         <h4 className="text-lg text-gray-400">{person.role}</h4>
-                        <div className="flex justify-start items-center space-x-4 mt-2 text-xl">
+                        {/* <div className="flex justify-start items-center space-x-4 mt-2 text-xl">
                             <a className={buttonStyle} href={person.linkedIn} target="_blank">
                                 <i className="fab fa-linkedin"/>
                             </a>
@@ -69,7 +70,7 @@ const About = () => {
                             <a className={buttonStyle} href={person.website} target="_blank">
                                 <i className="fas fa-globe-americas"/>
                             </a>
-                        </div>
+                        </div> */}
                     </div>)}
 
                 </div>
