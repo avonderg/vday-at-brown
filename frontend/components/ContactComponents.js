@@ -38,7 +38,7 @@ function ContactComponent(props) {
                 <br />
                 <input className="input100" type="text" name="recipientName" required />
                 <br />
-                <span>Recipient's Email</span>
+                <span>Recipient's Brown Email</span>
                 <br />
                 <input className="input100" type="text" name="recipientEmail" required />
                 <br />
