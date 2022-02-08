@@ -7,7 +7,7 @@ export default function () {
 
     return <div className="font-display max-w-screen-sm">
         <Navbar isLanding/>
-        <img src="/bears/smiling_red_bear.svg" className="rounded-lg mb-6 h-64 mx-auto"/>
+        <embed src="/bears/landing_bear.svg" className="rounded-lg mb-6 h-64 mx-auto"/>
         <div className="text-center">
             <h1 className="text-3xl sm:text-5xl font-bold text-pink-400">Valentine's Day<span className="font-sans text-pink-200 font-light">@</span>Brown</h1>
             <p className="text-xl text-gray-500">Send someone you love a message this Valentine's Day! All messages are anonymous and will be sent out February 14th.</p>

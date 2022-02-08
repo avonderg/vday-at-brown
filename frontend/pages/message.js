@@ -2,6 +2,7 @@ import Landing from "../components/Landing";
 import Link from 'next/link';
 import ContactComponent from "../components/ContactComponents";
 import Navbar from "../components/Navbar";
+// import FloatingHearts from 'react-native-floating-hearts'
 
 export default function Message() {
     return (
