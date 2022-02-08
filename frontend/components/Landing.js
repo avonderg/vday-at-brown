@@ -9,8 +9,8 @@ export default function () {
         <Navbar isLanding/>
         <img src="/bears/smiling_red_bear.svg" className="rounded-lg mb-6 h-64 mx-auto"/>
         <div className="text-center">
-            <h1 className="text-3xl sm:text-5xl font-bold text-gray-900">Valentine's Day<span className="font-sans text-gray-500 font-light">@</span>Brown</h1>
-            <p className="text-xl text-gray-500">A guide to help Brown and RISD students navigate the entrepreneurial resources on College Hill.</p>
+            <h1 className="text-3xl sm:text-5xl font-bold text-pink-400">Valentine's Day<span className="font-sans text-pink-200 font-light">@</span>Brown</h1>
+            <p className="text-xl text-gray-500">Send someone you love a message this Valentine's Day! All messages are anonymous and will be sent out February 14th.</p>
             {/* <div className="mt-4"> */}
                 {/* <div className="contactme" id ="contact">
                     <div className="contactOverlay">
