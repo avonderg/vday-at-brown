@@ -10,6 +10,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "emoji-picker-react": "^3.5.0",
     "firebase": "^8.0.1",
     "framer-motion": "^2.7.8",
     "lodash": "^4.17.20",

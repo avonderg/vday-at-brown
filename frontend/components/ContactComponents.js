@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
+import Emoji from "./emojis";
 
 const Result=() =>{
     return(
@@ -32,7 +33,7 @@ function ContactComponent(props) {
     return (
         <form action = "" onSubmit={sendEmail}>
             <div className="formWord">
-                <h2>Say Hello!</h2>
+                <h2>Spread the Love <Emoji symbol="💘" label="heart-arrow"/></h2>
                 <span>Recipient's Name</span>
                 <br />
                 <input className="input100" type="text" name="recipientName" required />

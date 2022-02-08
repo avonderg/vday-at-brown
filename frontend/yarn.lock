@@ -2880,6 +2880,11 @@
     "minimalistic-assert" "^1.0.0"
     "minimalistic-crypto-utils" "^1.0.0"
 
+"emoji-picker-react@^3.5.0":
+  "integrity" "sha512-e577mJVySM/4HIHwQIUGo6EipCoEouF7+a0YEqFhmzg0Yy1GrafmIhc/llG/No5gGodTM9qAT7hMSGCZFDT1Zw=="
+  "resolved" "https://registry.npmjs.org/emoji-picker-react/-/emoji-picker-react-3.5.0.tgz"
+  "version" "3.5.0"
+
 "emoji-regex@^8.0.0":
   "integrity" "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A=="
   "resolved" "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz"

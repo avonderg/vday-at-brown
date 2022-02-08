@@ -44,7 +44,7 @@ const About = () => {
             <h1 className="text-5xl font-bold text-gray-900 font-display">About</h1>
             <section>
                 <p className="text-xl text-gray-400 my-4">
-                Valentine’s Day@Brown was created by two hopeless romantics who decided it’s about time the Brown student body was shown a little love! After realizing there was no way to anonymously send valentines, we created this site as a fun way for students to show their appreciation for each other (or, ya know, confess their feelings to that special someone). Happy Valentine’s day everyone!
+                Virtual candy grams have arrived this Valentine's Day! This site was created by two hopeless romantics who decided it’s about time the Brown student body was shown a little love! After realizing there was no way to anonymously send valentines, we created this site as a fun way for students to show their appreciation for each other (or, ya know, confess their feelings to that special someone). We will be accepting messages until Feb 13th at midnight. The recipient will recieve an e-card and all messages are anonymous. Happy Valentine’s day everyone!
                 </p>
             </section>
             <section className="mt-16">
