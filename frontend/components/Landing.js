@@ -21,11 +21,13 @@ export default function () {
                         </div>
                     </div>
                 </div> */}
+                <div className="mt-4">
                 <Link href="/message">
                     <a className="bg-pink-500 block md:inline-block font-medium text-lg rounded-lg py-3 font-display transition-all duration-200 font-medium hover:bg-pink-400 focus:bg-pink-400 px-12 mt-8 text-white">
                         Send a Message
                     </a>
                 </Link>
+                </div>
             {/* </div> */}
         </div>
     </div>

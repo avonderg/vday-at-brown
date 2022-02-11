@@ -32,6 +32,7 @@ function ContactComponent(props) {
 
     return (
         <form action = "" onSubmit={sendEmail}>
+            <link rel="stylesheet" type="text/css"   href="/css/style.css"></link>
             <div className="formWord">
                 <h2>Spread the Love <Emoji symbol="💘" label="heart-arrow"/></h2>
                 <span>Recipient's Name</span>
@@ -55,4 +56,18 @@ function ContactComponent(props) {
         </form>
     );
 }
+
+// /* fit the window size to match the content wrapper */
+// function fitWindow2Content( contentWrapper ) {
+  
+// 	// calculate necessary change in window's width
+// 	var width = window.innerWidth - contentWrapper.clientWidth;
+
+// 	// calculate necessary change in window's height
+// 	var height = window.innerHeight- contentWrapper.clientHeight;
+  
+//   	// resize window to fit content
+// 	window.resizeBy( -width , -height );
+// }
+
 export default ContactComponent;
