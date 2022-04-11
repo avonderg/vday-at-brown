@@ -1,5 +1,5 @@
 
-# [V-Day @ Brown](https://vday-at-brown-9f5lmdzh7-samgundotra.vercel.app/about)
+# [V-Day @ Brown](https://vday-at-brown-9f5lmdzh7-samgundotra.vercel.app/)
 
 An online platform for Brown students to send virtual candy grams to each other this valentine's day! (February 2022). Messages will only be sent up to and on the day of the 14th. 
 
